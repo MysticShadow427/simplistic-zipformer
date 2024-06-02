@@ -51,8 +51,17 @@ zipformer(x) # (32, 100, 512)
 
 ## Todo
 
-- [ ] switch to a better relative positional encoding. shaw's is dated
-- [ ] whitener and balancer activation modification
+- [ ] switch to a better relative positional encoding.
+- [ ] whitener and balancer activation modifications.
+- [ ] adding a training and evaluation script.
+
+## References
+1. [lucidrains/conformer](https://github.com/lucidrains/conformer/tree/master)
+2. [facebookresearch/ConvNext](https://github.com/facebookresearch/ConvNeXt/blob/main/models/convnext.py)
+3. [k2-fsa/icefall](https://github.com/k2-fsa/icefall/blob/master/egs/librispeech/ASR/pruned_transducer_stateless7/zipformer.py) 
+
+## Contribution
+Please give a pull request,I will be happy to improve this naive implementation.
 
 ## Citations
 
