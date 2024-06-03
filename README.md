@@ -4,12 +4,6 @@
 
 Implementation of the U-Net like Zipformer from the <a href="https://arxiv.org/pdf/2310.11230">Zipformer</a> paper, for improving the Conformer with better temporal resolution.
 
-## Install
-
-```bash
-$ pip install zipformer
-```
-
 ## Usage
 
 1 Zipformer Block
